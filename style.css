@@ -50,9 +50,8 @@ html {
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
-/* End of Common Styles */
 
-/* Section 1 */
+/* ------------Section 1 -----------------*/
 .section-1 {
   width: auto;
   height: 72.5vh;
@@ -88,11 +87,7 @@ html {
   letter-spacing: 0.1rem;
 }
 
-
-
-/* End of Section 1 */
-
-/* Stickey Nav */
+/* ------------nav 2----------- */
 .sticky-nav {
   height: 6.7rem;
   width: 100%;
@@ -127,9 +122,9 @@ html {
   right: 16%;
 }
 
-/* End of Stickey Nav */
 
-/* Section 2 */
+
+/*----------------- Section 2 --------------------*/
 .section-2 {
   width: 100%;
   height: 94vh;
@@ -207,9 +202,9 @@ html {
   background: var(--white-color);
 }
 
-/* End of Section 2 */
 
-/* Section 3 */
+
+/* -----------------Section 3 ------------------*/
 .section-3 {
   width: 100%;
   height: 85vh;
@@ -221,6 +216,9 @@ html {
   left: 18%;
 }
 
+.climb img {
+  margin-left: -35px;
+}
 .climb-text-section {
   display: flex;
   flex-direction: row;
@@ -276,38 +274,11 @@ html {
   letter-spacing: -0.1rem;
 }
 
-
-.schedule {
-  margin: 3rem 0 1rem 5.4rem;
-  transform: scale(1.1);
+.accordion-body img {
+  width: 50%;
 }
 
-.schedule-text {
-  display: flex;
-  font-weight: 300;
-  opacity: 0.7;
-  margin-top: 0.8rem;
-  padding: 0 1rem;
-  margin-left: 2.4rem;
-}
-
-.schedule-dates {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  margin: 0 2rem;
-}
-
-.schedule-events {
-  margin-left: 4rem;
-}
-
-.schedule-dates p,
-.schedule-events p {
-  font-size: 1.7rem;
-}
-
-/* Footer */
+/*------------------------------ Footer--------------------- */
 .footer {
   height: 8rem;
   width: 100%;
@@ -325,13 +296,8 @@ html {
   left: 16%;
 }
 
-.copy {
-  position: absolute;
-  right: 16%;
-  align-self: center;
-}
 
-/* Responsive */
+/*---------------- Responsive ---------------*/
 
 @media (max-width: 1500px) {
   html {
